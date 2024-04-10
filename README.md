@@ -36,6 +36,6 @@ I have personally reached the end of this project that I created with these goal
 - [@kkbin505](https://www.github.com/kkbin505) https://github.com/kkbin505/Arduino-Transmitter-for-ELRS
 - [@DeviationTX](https://www.github.com/DeviationTX) https://github.com/DeviationTX/deviation
 - [@r-u-t-r-A](https://www.github.com/r-u-t-r-A) https://github.com/r-u-t-r-A/STM32-ELRS-Handset/tree/4b6b6f61b5f094afb384d3d6aad8195b43e8a78a
-- [@/r-u-t-r-A](https://www.github.com//r-u-t-r-A) https://github.com/opentx/opentx/tree/2.3
+- [@opentx](https://www.github.com/opentx) https://github.com/opentx/opentx/tree/2.3
 - [@crsf-wg](https://www.github.com/crsf-wg) https://github.com/crsf-wg/crsf
 * https://caolan.uk/notes/2020-10-14_bramley_driving_a_sharp_memory_display_from_rust/
