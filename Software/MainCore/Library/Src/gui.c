@@ -335,7 +335,7 @@ void DrawMainScreen(void)
 	uint32_t time = millis() / 1000;
 	char *lcd_txt = (char *)malloc(32);
 	
-	if(GetSW(SWD) == 1)
+	if(GetSW(SWD) == 0)
 	{
 		flightTimeStart = millis() / 1000;
 	}
@@ -1186,7 +1186,7 @@ void CheckInputsPos(void)
 		GFXDisplayAllClear();
 		if((adc_val[THROTTLE] < myTableParams.channels->max - 300) || (GetSW(SW) != SWITCH_HOMES))
 		{
-			GFXDisplayPutImage(0,60, &warning_screen, false);
+			GFXDisplayPutImage(10,60, &warning_screen, false);
 			GFXDisplayUpdate();
 		}
 		while((adc_val[THROTTLE] < myTableParams.channels->max - 300) || (GetSW(SW) != SWITCH_HOMES))
@@ -1200,11 +1200,9 @@ void CheckInputsPos(void)
 
 void GUI_Init(void)
 {
-//		guiMenu = CheckScreen;
-		guiMenu = HomeScreen;
+		guiMenu = CheckScreen;
 		GFXDisplayPowerOn();
 
-//		GFXDisplayPutString(15, 34, &fontConsolas24h, "Welcome to, RadiolinkAT9C", BLACK, WHITE);		
 		GFXDisplayDrawRect(0, 0, 400, 240, WHITE);
 		GFXDisplayUpdate();
 		GFXDisplayPutImage(0, 2, &splash_screen, false);
