@@ -1,16 +1,15 @@
 <div align="center">
   <b>
    <h1>
-      RadiolinkAT9C
+      Radionoob AT9
    </h1>
    <h6>
      V1
    </h6>
   </b>
 
-<img src="./Hardware/IMAGEs/Render2.PNG">
+<img src="./Images/Transmitter/Splash.jpeg">
 </div>
-
 
 ## What is this project?
 My aim in this project, which I started as a hobby using the box of my broken Radiolink AT9 radio transmitter, was to control the drone in a simple way using the [ExpressLRS](https://github.com/ExpressLRS) module. In addition, I designed equipment that will contribute to my personal development. 
@@ -18,6 +17,8 @@ My aim in this project, which I started as a hobby using the box of my broken Ra
 
 
 I have personally reached the end of this project that I created with these goals. Even though it is not completely professional, I have created a remote control that will do the job. I made both the hardware and software files open source to guide beginners who want to make their own remote control. Who knows, maybe someone will make the code I wrote more meaningful :)
+
+### This short demonstration [Youtube](https://youtu.be/xDq1djXwKw4)
 
 
 ## Known bugs;
