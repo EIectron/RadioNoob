@@ -8,7 +8,7 @@
    </h6>
   </b>
 
-<img src="./Images/Transmitter/Splash.jpeg">
+<img src="./Images/Logo/Bitmaps/SplashScreen.jpg">
 </div>
 
 ## What is this project?
