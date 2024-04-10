@@ -1,0 +1,1 @@
+The structure where I tried quick functions to parse the CRSF protocol

@@ -13,3 +13,5 @@
 * PPM Data in & PPM Data out
 * PWM vibration motor
 * 12-bit 5 MSPS SAR ADC
+
+### Check [Schematic](./Hardware/Schematic/RadioNoob.pdf)
