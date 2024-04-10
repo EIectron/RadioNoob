@@ -1,0 +1,2056 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f7b21a06-bb0d-4047-ab09-2ed02865b4f6)
+
+  (paper "A4")
+
+  (title_block
+    (title "Audio Amplifier")
+    (date "2023-04-30")
+    (rev "1.0")
+    (company "Kolamuc Industry")
+    (comment 1 "alperen.kolamu@gmail.com")
+    (comment 2 "Alperen KOLAMUÇ")
+  )
+
+  (lib_symbols
+    (symbol "Alperen:PAM8304ASR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -8.89 12.7 0)
+        (effects (font (size 1.27 1.27)) (justify bottom))
+      )
+      (property "Value" "PAM8304ASR" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)) (justify bottom))
+      )
+      (property "Footprint" "Alperen:MSOP08" (at -1.27 -11.43 0)
+        (effects (font (size 1.27 1.27)) (justify bottom) hide)
+      )
+      (property "Datasheet" "https://cdn.ozdisan.com/ETicaret_Dosya/710784_246441.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PAM8304ASR_0_0"
+        (rectangle (start -10.16 -10.16) (end 10.16 12.7)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin bidirectional line (at 15.24 1.27 180) (length 5.08)
+          (name "1_OUT+" (effects (font (size 1.016 1.016))))
+          (number "1" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at -15.24 10.16 0) (length 5.08)
+          (name "2_PVDD" (effects (font (size 1.016 1.016))))
+          (number "2" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at -15.24 7.62 0) (length 5.08)
+          (name "3_VDD" (effects (font (size 1.016 1.016))))
+          (number "3" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at -15.24 -1.27 0) (length 5.08)
+          (name "4_IN-" (effects (font (size 1.016 1.016))))
+          (number "4" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at -15.24 1.27 0) (length 5.08)
+          (name "5_IN+" (effects (font (size 1.016 1.016))))
+          (number "5" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at 5.08 -15.24 90) (length 5.08)
+          (name "6_/SD" (effects (font (size 1.016 1.016))))
+          (number "6" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at -15.24 -7.62 0) (length 5.08)
+          (name "7_GND" (effects (font (size 1.016 1.016))))
+          (number "7" (effects (font (size 1.016 1.016))))
+        )
+        (pin bidirectional line (at 15.24 -1.27 180) (length 5.08)
+          (name "8_OUT-" (effects (font (size 1.016 1.016))))
+          (number "8" (effects (font (size 1.016 1.016))))
+        )
+      )
+    )
+    (symbol "Connector:Conn_01x02_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02_Male" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x02_Male_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:C_Polarized_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Polarized_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Polarized_Small_0_1"
+        (rectangle (start -1.524 -0.3048) (end 1.524 -0.6858)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start -1.524 0.6858) (end 1.524 0.3048)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.524)
+            (xy -0.762 1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.016 1.27)
+            (xy -1.016 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Polarized_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 1.8542)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 1.8542)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.254 1.778 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C_Small" (at 0.254 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "capacitor cap" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_Small_0_1"
+        (polyline
+          (pts
+            (xy -1.524 -0.508)
+            (xy 1.524 -0.508)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.524 0.508)
+            (xy 1.524 0.508)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:L_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "L" (at 0.762 1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "L_Small" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Inductor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "L_Small_0_1"
+        (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "L_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 0.508)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 0.508)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0.762 0.508 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "R_Small" (at 0.762 -1.016 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_Small_0_1"
+        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_Small_1_1"
+        (pin passive line (at 0 2.54 270) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 90) (length 0.762)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 167.64 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid 22220670-0266-49e7-90c0-8d038e5c4884)
+  )
+  (junction (at 125.73 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid 4054b0bc-8447-4bab-9ca3-4cf404ef702b)
+  )
+  (junction (at 125.73 90.17) (diameter 0) (color 0 0 0 0)
+    (uuid 4a2fae25-5a2e-45ba-97af-ba6d3c4154df)
+  )
+  (junction (at 148.59 118.11) (diameter 0) (color 0 0 0 0)
+    (uuid 56e269e6-981c-408e-af4a-2c3693385c62)
+  )
+  (junction (at 105.41 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid 5bd995c4-c184-4862-bd31-d4580e4b01d0)
+  )
+  (junction (at 125.73 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid c946971c-c4ea-4f81-8605-a97ae16c7959)
+  )
+  (junction (at 175.26 96.52) (diameter 0) (color 0 0 0 0)
+    (uuid e2678a0d-0fdb-4b5d-af83-1f1b4f940b81)
+  )
+  (junction (at 125.73 87.63) (diameter 0) (color 0 0 0 0)
+    (uuid ef1ab1cd-a35e-492e-95b7-89f0a473a8cb)
+  )
+  (junction (at 105.41 87.63) (diameter 0) (color 0 0 0 0)
+    (uuid f9c73502-9014-4fc4-87de-74effbdd0768)
+  )
+
+  (wire (pts (xy 105.41 87.63) (xy 105.41 88.9))
+    (stroke (width 0) (type default))
+    (uuid 00baede1-f0ad-4b01-88c8-2d7ff1c38fa8)
+  )
+  (wire (pts (xy 177.8 99.06) (xy 177.8 96.52))
+    (stroke (width 0) (type default))
+    (uuid 167fe60c-0819-41fa-89e2-a0dc5be26279)
+  )
+  (wire (pts (xy 175.26 96.52) (xy 177.8 96.52))
+    (stroke (width 0) (type default))
+    (uuid 16c21365-744f-4fcb-892c-190bca896ab9)
+  )
+  (wire (pts (xy 125.73 92.71) (xy 125.73 90.17))
+    (stroke (width 0) (type default))
+    (uuid 32ec9f8e-497b-474f-8983-83d316ca336b)
+  )
+  (wire (pts (xy 160.02 104.14) (xy 161.29 104.14))
+    (stroke (width 0) (type default))
+    (uuid 35c9a13a-3aef-455c-b324-23937fa1204e)
+  )
+  (wire (pts (xy 175.26 96.52) (xy 175.26 105.41))
+    (stroke (width 0) (type default))
+    (uuid 37a0e6f9-85b7-495b-8421-7071d35c2b42)
+  )
+  (wire (pts (xy 160.02 101.6) (xy 160.02 104.14))
+    (stroke (width 0) (type default))
+    (uuid 39755ef5-5abc-4f61-a981-bf2723ce4238)
+  )
+  (wire (pts (xy 125.73 81.28) (xy 125.73 87.63))
+    (stroke (width 0) (type default))
+    (uuid 3cdc9f98-d3ba-47c5-8b07-b5b9f985bf78)
+  )
+  (wire (pts (xy 116.84 81.28) (xy 125.73 81.28))
+    (stroke (width 0) (type default))
+    (uuid 42de667e-ef92-47c9-be37-8ac5180edbb6)
+  )
+  (wire (pts (xy 167.64 104.14) (xy 177.8 104.14))
+    (stroke (width 0) (type default))
+    (uuid 4f3a48f8-0b77-45a2-b592-2c32ef649227)
+  )
+  (wire (pts (xy 125.73 107.95) (xy 125.73 110.49))
+    (stroke (width 0) (type default))
+    (uuid 55b45f47-853d-4d9d-8aa7-db5138c31d27)
+  )
+  (wire (pts (xy 148.59 118.11) (xy 149.86 118.11))
+    (stroke (width 0) (type default))
+    (uuid 5603c81e-511d-4772-8afc-2c461f05af48)
+  )
+  (wire (pts (xy 127 104.14) (xy 124.46 104.14))
+    (stroke (width 0) (type default))
+    (uuid 63028698-322d-4c7e-aa7a-afd3f4e758b6)
+  )
+  (wire (pts (xy 158.75 101.6) (xy 160.02 101.6))
+    (stroke (width 0) (type default))
+    (uuid 6a87f054-cc81-47de-a705-10df25aee4c4)
+  )
+  (wire (pts (xy 111.76 81.28) (xy 105.41 81.28))
+    (stroke (width 0) (type default))
+    (uuid 6afd48df-8d37-40ca-9b57-f06998bc2f24)
+  )
+  (wire (pts (xy 128.27 101.6) (xy 127 101.6))
+    (stroke (width 0) (type default))
+    (uuid 7d19ae60-b1e8-4a48-afb3-0dea2d386130)
+  )
+  (wire (pts (xy 148.59 115.57) (xy 148.59 118.11))
+    (stroke (width 0) (type default))
+    (uuid 7d269ab2-c61b-459c-8210-57088bba1009)
+  )
+  (wire (pts (xy 105.41 73.66) (xy 105.41 81.28))
+    (stroke (width 0) (type default))
+    (uuid 7d7bb964-bf5a-4ed4-972a-fd84bfd376cb)
+  )
+  (wire (pts (xy 128.27 92.71) (xy 125.73 92.71))
+    (stroke (width 0) (type default))
+    (uuid 7f4824da-e387-4fbc-a061-ed144f996cbb)
+  )
+  (wire (pts (xy 180.34 101.6) (xy 177.8 101.6))
+    (stroke (width 0) (type default))
+    (uuid 805a3db4-2db2-411b-a023-735b23af6e7f)
+  )
+  (wire (pts (xy 105.41 87.63) (xy 111.76 87.63))
+    (stroke (width 0) (type default))
+    (uuid 807ffff3-5afc-46ba-a351-37f91ed5e372)
+  )
+  (wire (pts (xy 148.59 118.11) (xy 146.05 118.11))
+    (stroke (width 0) (type default))
+    (uuid 82cac19d-6f6a-4fc0-a934-701ea46a79f8)
+  )
+  (wire (pts (xy 116.84 87.63) (xy 125.73 87.63))
+    (stroke (width 0) (type default))
+    (uuid 840dc2c5-c1a3-4172-aaab-17074bb2a28e)
+  )
+  (wire (pts (xy 160.02 99.06) (xy 160.02 96.52))
+    (stroke (width 0) (type default))
+    (uuid 84e01ff2-4856-40f0-b8b9-bbfa762fb2df)
+  )
+  (wire (pts (xy 105.41 81.28) (xy 105.41 87.63))
+    (stroke (width 0) (type default))
+    (uuid 89308ea7-69d4-40a3-ad73-1c148d7a147a)
+  )
+  (wire (pts (xy 127 99.06) (xy 127 96.52))
+    (stroke (width 0) (type default))
+    (uuid 8cd04c42-98eb-4b91-98dd-aa764fe02497)
+  )
+  (wire (pts (xy 128.27 99.06) (xy 127 99.06))
+    (stroke (width 0) (type default))
+    (uuid 8e8c9fb1-2ade-406e-b157-9f440476ef6e)
+  )
+  (wire (pts (xy 167.64 110.49) (xy 167.64 111.76))
+    (stroke (width 0) (type default))
+    (uuid 900c9e8d-1408-47dc-9524-338635754451)
+  )
+  (wire (pts (xy 125.73 71.12) (xy 125.73 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9b378429-3a5c-479d-8744-9b4b57bf01e1)
+  )
+  (wire (pts (xy 127 96.52) (xy 124.46 96.52))
+    (stroke (width 0) (type default))
+    (uuid a609734a-a39e-4169-9704-6c0a78dba96e)
+  )
+  (wire (pts (xy 125.73 90.17) (xy 128.27 90.17))
+    (stroke (width 0) (type default))
+    (uuid b1ac1bb1-d211-46ef-8a7f-3a1b6283ba49)
+  )
+  (wire (pts (xy 166.37 96.52) (xy 175.26 96.52))
+    (stroke (width 0) (type default))
+    (uuid b2131c15-550d-4cc2-9b75-bab3a7f4a181)
+  )
+  (wire (pts (xy 125.73 66.04) (xy 125.73 64.77))
+    (stroke (width 0) (type default))
+    (uuid bcda33d0-2b94-4d67-91e7-95fea8fd9a29)
+  )
+  (wire (pts (xy 127 101.6) (xy 127 104.14))
+    (stroke (width 0) (type default))
+    (uuid c01841dc-e0a2-4d88-82de-10e6142a2ab6)
+  )
+  (wire (pts (xy 180.34 99.06) (xy 177.8 99.06))
+    (stroke (width 0) (type default))
+    (uuid c160247b-f982-473e-9561-c6f661c6b834)
+  )
+  (wire (pts (xy 156.21 118.11) (xy 156.21 115.57))
+    (stroke (width 0) (type default))
+    (uuid c1fae50d-af20-4377-bede-a62c7a4d3f61)
+  )
+  (wire (pts (xy 111.76 73.66) (xy 105.41 73.66))
+    (stroke (width 0) (type default))
+    (uuid c27f1444-5bd2-4407-ae16-32123fc4fc02)
+  )
+  (wire (pts (xy 125.73 73.66) (xy 125.73 81.28))
+    (stroke (width 0) (type default))
+    (uuid c4e58994-c88b-40d7-b09a-4d1e49ad5bbc)
+  )
+  (wire (pts (xy 116.84 73.66) (xy 125.73 73.66))
+    (stroke (width 0) (type default))
+    (uuid cf58fead-27dc-413e-b39b-b4f66c1eec12)
+  )
+  (wire (pts (xy 105.41 96.52) (xy 111.76 96.52))
+    (stroke (width 0) (type default))
+    (uuid d99bdb88-4815-4387-9fc2-bd7761b474e7)
+  )
+  (wire (pts (xy 175.26 111.76) (xy 175.26 110.49))
+    (stroke (width 0) (type default))
+    (uuid de7bb32c-b5e7-4bfc-815f-4b60c177fe14)
+  )
+  (wire (pts (xy 154.94 118.11) (xy 156.21 118.11))
+    (stroke (width 0) (type default))
+    (uuid e3254b69-ad86-4cfe-9d8e-3e6cd9d39d43)
+  )
+  (wire (pts (xy 160.02 96.52) (xy 161.29 96.52))
+    (stroke (width 0) (type default))
+    (uuid e7d39ef6-a0bb-4fde-9f15-5d0aa90186aa)
+  )
+  (wire (pts (xy 125.73 115.57) (xy 125.73 118.11))
+    (stroke (width 0) (type default))
+    (uuid e8bdf76d-b67c-4935-956f-de475b458124)
+  )
+  (wire (pts (xy 158.75 99.06) (xy 160.02 99.06))
+    (stroke (width 0) (type default))
+    (uuid e8f99831-7f31-400b-9e61-3a657eb7cee0)
+  )
+  (wire (pts (xy 116.84 104.14) (xy 119.38 104.14))
+    (stroke (width 0) (type default))
+    (uuid f0dc9e20-ba31-4d61-af93-737e902ecdac)
+  )
+  (wire (pts (xy 166.37 104.14) (xy 167.64 104.14))
+    (stroke (width 0) (type default))
+    (uuid f1ddbc38-eecf-4b01-b386-3e69fb05334b)
+  )
+  (wire (pts (xy 167.64 104.14) (xy 167.64 105.41))
+    (stroke (width 0) (type default))
+    (uuid f4152181-c5c8-4ef6-996d-3d2a52d5526a)
+  )
+  (wire (pts (xy 125.73 87.63) (xy 125.73 90.17))
+    (stroke (width 0) (type default))
+    (uuid f70a14b7-e41b-4755-90c2-77d43bb55b6b)
+  )
+  (wire (pts (xy 128.27 107.95) (xy 125.73 107.95))
+    (stroke (width 0) (type default))
+    (uuid fbcecdfe-2e09-4974-a2a9-1fa34e278480)
+  )
+  (wire (pts (xy 105.41 104.14) (xy 105.41 106.68))
+    (stroke (width 0) (type default))
+    (uuid fcdc9a1e-cb3c-423d-a8b1-909af5f4fa58)
+  )
+  (wire (pts (xy 111.76 104.14) (xy 105.41 104.14))
+    (stroke (width 0) (type default))
+    (uuid fd5237c3-cf71-4903-ab54-71dc0d2f91a5)
+  )
+  (wire (pts (xy 177.8 101.6) (xy 177.8 104.14))
+    (stroke (width 0) (type default))
+    (uuid fd98e5c5-6a14-48a4-ad8a-a2e9724f29cd)
+  )
+  (wire (pts (xy 116.84 96.52) (xy 119.38 96.52))
+    (stroke (width 0) (type default))
+    (uuid ffde5053-b0b6-4bf9-b1ed-ae2959af7a16)
+  )
+
+  (rectangle (start 124.46 132.08) (end 191.77 147.32)
+    (stroke (width 1) (type default) (color 255 0 0 1))
+    (fill (type color) (color 255 255 255 1))
+    (uuid 29ae7e85-47ff-42fd-9ac3-cb48cd608f24)
+  )
+
+  (image (at 265.43 173.99) (scale 0.438944)
+    (uuid 5a7b0640-4c5c-479d-83f5-838f4933da5d)
+    (data
+      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
+    )
+  )
+
+  (text "Test results" (at 124.46 130.81 0)
+    (effects (font (size 1.27 1.27) bold (color 255 0 0 1)) (justify left bottom))
+    (uuid 9064524c-50b4-46f6-b81f-50114fe036ac)
+  )
+  (text "GND pin does not work when connected through a ferrite coil. \nIt needs to be connected directly to GND."
+    (at 128.27 142.24 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ac0c54e4-1529-49ec-8dcc-b5dca84121c4)
+  )
+
+  (hierarchical_label "IN+" (shape input) (at 105.41 96.52 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 31daaac6-40f8-4448-80ab-58aeaea795cd)
+  )
+  (hierarchical_label "EN" (shape input) (at 146.05 118.11 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 34b81e24-889d-47d3-aaf0-9c69fff8bc09)
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 114.3 81.28 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 07e96c3d-7c34-4680-b518-ef7baf833165)
+    (property "Reference" "C18" (at 113.03 80.01 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100uF" (at 113.03 77.47 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_Samsung.pdf" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MLCC (3225) 1210 100uF 6.3VDC ±20% X5R" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "CL10A106KP8NNNC" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "1210" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/pasif-komponentler/kapasitorler/smt-smd-ve-mlcc-kapasitorler/CL32A107MQVNNNE/359758" (at 114.3 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c483390e-f0c5-492e-ad89-2ef55bf3eaf6))
+    (pin "2" (uuid 2147bc75-8f9e-4216-9f01-91c983ffbdc6))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "C18") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b184fc07-6843-4a0e-bd6e-1fe163a8aeaa"
+          (reference "C15") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 152.4 118.11 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0ba48c89-8b7e-49b1-8d96-772961b0d30f)
+    (property "Reference" "R?" (at 152.4 123.19 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10K" (at 152.4 120.65 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Resistor_Royalohm.pdf" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Özdisan" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "TC0325F1002T5F" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES.(1608) 0603 10K Ohms 1% 1/10W 25PPM" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "ROYALOHM" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/727909/TC0325F1002T5F" (at 152.4 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55e4a2da-84d7-4d51-890c-03a0ecbd0854))
+    (pin "2" (uuid 48678a07-6a49-47c3-97e7-eb211858f8b2))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "R?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "R51") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "R14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 121.92 96.52 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0cf28689-b32f-4280-8b19-d4c4b98e6bdc)
+    (property "Reference" "R19" (at 120.65 99.06 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100K" (at 119.38 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Resistor_Royalohm.pdf" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "ROYALOHM" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES.(1608) 0603 100K Ohms 5% 1/10W-S 100PPM" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "0603SAJ0104T5E" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0603SAJ0104T5E/336252" (at 121.92 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 35347c1d-b0ec-4a64-868a-a66729764021))
+    (pin "2" (uuid a1cb5b41-6b25-402f-bf38-e46173df8622))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "R19") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b184fc07-6843-4a0e-bd6e-1fe163a8aeaa"
+          (reference "R27") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "R19") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 175.26 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1c619907-8310-4c29-b4b8-74a439869ffe)
+    (property "Reference" "#PWR?" (at 175.26 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 175.26 115.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 175.26 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.26 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid de47c57e-797f-4702-a7b6-3186da8024fb))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR055") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Small") (at 163.83 104.14 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1cd88c0e-372e-45d8-b767-721fef6db0de)
+    (property "Reference" "L1" (at 163.83 99.06 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "220R" (at 163.83 101.6 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Ferrite_MURATA.pdf" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "FERRITE BEAD 0603 220R 1.4A" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "MURATA" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "BLM18PG221SN1D" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/484088/BLM18PG221SN1D" (at 163.83 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1ed1721d-d6f0-4552-ad44-95af3e6e3187))
+    (pin "2" (uuid 217a1df1-a743-4cca-968f-f22665efcc7a))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "L1") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "L7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "L5") (unit 1)
+        )
+      )
+      (project "RBOT-OnDesk"
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb"
+          (reference "L5") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/538eecd5-f236-4a0e-9178-22653d0c1ee5"
+          (reference "L6") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/4ccf1aa5-fa57-4c39-902e-517b8aedff9b"
+          (reference "L13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Small") (at 125.73 113.03 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 22418668-c70f-437c-8388-6b7b9f287ad8)
+    (property "Reference" "L1" (at 127 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "220R" (at 127 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Ferrite_MURATA.pdf" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "FERRITE BEAD 0603 220R 1.4A" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "MURATA" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "BLM18PG221SN1D" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/484088/BLM18PG221SN1D" (at 125.73 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 498fd9ff-aba5-4e02-9bf1-b599afaad1b8))
+    (pin "2" (uuid f7d17bb1-e60c-426b-b4fd-9e30f5a27d5f))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "L1") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "L7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "L7") (unit 1)
+        )
+      )
+      (project "RBOT-OnDesk"
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb"
+          (reference "L5") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/538eecd5-f236-4a0e-9178-22653d0c1ee5"
+          (reference "L6") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/4ccf1aa5-fa57-4c39-902e-517b8aedff9b"
+          (reference "L13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 121.92 104.14 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 359dd434-5553-48dd-9432-09f90724299b)
+    (property "Reference" "R19" (at 120.65 106.68 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100K" (at 119.38 101.6 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Resistor_Royalohm.pdf" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "ROYALOHM" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES.(1608) 0603 100K Ohms 5% 1/10W-S 100PPM" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "0603SAJ0104T5E" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/pasif-komponentler/direncler/smt-smd-ve-cip-direncler/0603SAJ0104T5E/336252" (at 121.92 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a90455bb-e112-4217-9255-bf29209e3d31))
+    (pin "2" (uuid 716fb89d-7f67-4b2c-8cd6-8b6dbf0a8173))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "R19") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b184fc07-6843-4a0e-bd6e-1fe163a8aeaa"
+          (reference "R27") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "R20") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "R12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 105.41 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3db400ed-4492-41ec-bbb0-1ef3c2ee88b7)
+    (property "Reference" "#PWR?" (at 105.41 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 105.41 110.49 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 105.41 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 105.41 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e708432c-9db7-4914-9115-6b11047eb855))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 114.3 87.63 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3f475d14-283a-4ffd-b185-f613cfd71740)
+    (property "Reference" "C?" (at 113.03 86.36 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF" (at 113.03 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_Samsung.pdf" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MLCC (1608) 0603 1uF 16VDC ±10% X7R" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "CL10B105KO8NNNC" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/14234/CL10B105KO8NNNC" (at 114.3 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c34fd905-2b3c-4821-b09f-c5b22d925059))
+    (pin "2" (uuid 39619c8f-3d8d-4987-8b0a-c58ad464fd45))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "C13") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Small") (at 125.73 68.58 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 554f3ad4-2e5d-4ae0-b426-db9337cdf0e4)
+    (property "Reference" "L1" (at 127 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "220R" (at 127 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Ferrite_MURATA.pdf" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "FERRITE BEAD 0603 220R 1.4A" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "MURATA" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "BLM18PG221SN1D" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/484088/BLM18PG221SN1D" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f3160b21-861c-4d16-bae8-bc65ecdfe605))
+    (pin "2" (uuid 282f5be2-fe29-4ac6-8531-7cef49a171d8))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "L1") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "L7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "L2") (unit 1)
+        )
+      )
+      (project "RBOT-OnDesk"
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb"
+          (reference "L5") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/538eecd5-f236-4a0e-9178-22653d0c1ee5"
+          (reference "L6") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/4ccf1aa5-fa57-4c39-902e-517b8aedff9b"
+          (reference "L13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 125.73 64.77 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 57ab3d3b-ca4e-4a36-8086-14943f6a5575)
+    (property "Reference" "#PWR0137" (at 125.73 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 125.73 59.69 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 125.73 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 125.73 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 65f6d1e0-e9f0-42c3-9d90-57ba0849e371))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0137") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b184fc07-6843-4a0e-bd6e-1fe163a8aeaa"
+          (reference "#PWR070") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR076") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 175.26 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 794d586c-8512-4449-a262-794ee6d35a80)
+    (property "Reference" "C15" (at 176.53 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "220pF" (at 176.53 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_Samsung.pdf" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MLCC (1608) 0603 220pF 50VDC ±5% X7R" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "CL10B221JB8NNNC" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/pasif-komponentler/kondansatorler/smt-smd-ve-mlcc-kondansatorler/CL10B221JB8NNNC/14795" (at 175.26 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1f0d8676-d09d-4813-91c4-4bf6dd20a881))
+    (pin "2" (uuid bc392408-771e-4af5-b326-0de3113e1618))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "C15") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 105.41 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 799ef300-f043-47a4-8acb-891cdc35eaea)
+    (property "Reference" "#PWR?" (at 105.41 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 105.41 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 105.41 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 105.41 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 73d9c8cb-93d2-4309-b8f1-c4894c97afb8))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR073") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 125.73 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8334e264-77ff-4fd3-afac-21bdb37113b7)
+    (property "Reference" "#PWR?" (at 125.73 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 125.73 121.92 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 125.73 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 125.73 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff678226-faaf-4a18-b4c2-21c13cee8cbc))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR074") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 167.64 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 884ba116-bde7-44a4-8a9c-1dd6bb128497)
+    (property "Reference" "#PWR?" (at 167.64 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 167.64 115.57 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 167.64 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 50926f72-84f7-43b3-9412-be9c8926de8b))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR079") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR054") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 167.64 107.95 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 93223e57-7345-463b-9791-cf6787a77464)
+    (property "Reference" "C14" (at 168.91 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "220pF" (at 168.91 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_Samsung.pdf" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MLCC (1608) 0603 220pF 50VDC ±5% X7R" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "CL10B221JB8NNNC" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/pasif-komponentler/kondansatorler/smt-smd-ve-mlcc-kondansatorler/CL10B221JB8NNNC/14795" (at 167.64 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d617f259-cbfa-4b66-ab34-f1ae4cf8d670))
+    (pin "2" (uuid 04c312bf-0fa9-4410-9135-742745a0d1b6))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "C14") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 114.3 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a36c8b33-7247-46f8-9def-e3b75af9c3fd)
+    (property "Reference" "C?" (at 113.03 93.98 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 113.03 97.79 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_Samsung.pdf" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MLCC (1608) 0603 100nF 50VDC ±10% X7R" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "CL10B104KB8NNNC" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/9739/CL10B104KB8NNNC" (at 114.3 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 68bf38b7-c54b-4749-9c8c-ada655d3d762))
+    (pin "2" (uuid 3bd91279-b0cd-4d7b-a35f-cad52da28628))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "C11") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 156.21 115.57 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c8af1a72-d401-4bdc-bf9f-427f7f398e6e)
+    (property "Reference" "#PWR?" (at 156.21 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 156.21 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 156.21 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 156.21 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c03d54ac-3815-4c03-8e66-b691ac7845ca))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "#PWR077") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized_Small") (at 114.3 73.66 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d7330502-424c-46f1-8f23-1f9b5a033ced)
+    (property "Reference" "C31" (at 110.49 72.39 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100uF" (at 109.22 69.85 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_JB.pdf" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "CAP.EL.100uF 16V 6.3x5.4 85C %20 SMD" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JB CAPACITORS" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "6.3x5.4" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "JCS1C101M063054" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/pasif-komponentler/kapasitorler/aluminyum-kapasitorler/JCS1C101M063054/644947" (at 114.3 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 193446b8-ed31-4eed-a1a0-2e29779cd83a))
+    (pin "2" (uuid b4d9d1c8-2038-419f-9918-a931385173ee))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/b184fc07-6843-4a0e-bd6e-1fe163a8aeaa"
+          (reference "C31") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C43") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 114.3 104.14 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e6c449dd-db89-4e15-b46a-6255e9e27527)
+    (property "Reference" "C?" (at 113.03 101.6 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 113.03 105.41 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Capacitor_Samsung.pdf" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MLCC (1608) 0603 100nF 50VDC ±10% X7R" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SAMSUNG" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "CL10B104KB8NNNC" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/9739/CL10B104KB8NNNC" (at 114.3 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f5c0f36b-3476-46f7-afa8-7ede9a237754))
+    (pin "2" (uuid b8211c13-b27c-4f24-8d87-fdf60bff344a))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cd4b460d-12d4-4548-9e67-b995bc4e6ef8"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "C12") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:L_Small") (at 163.83 96.52 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ed749ac0-4459-4934-b876-3a48cfea1c0b)
+    (property "Reference" "L1" (at 163.83 91.44 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "220R" (at 163.83 93.98 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "./Documents/Ferrite_MURATA.pdf" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "FERRITE BEAD 0603 220R 1.4A" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "MURATA" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "BLM18PG221SN1D" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "0603" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/Product/Detail/484088/BLM18PG221SN1D" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 26b97f61-fb7b-4966-b60b-cc1f81e31c6f))
+    (pin "2" (uuid d7b337b0-646a-45c2-9c2e-d5eb316e9234))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "L1") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "L7") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "L4") (unit 1)
+        )
+      )
+      (project "RBOT-OnDesk"
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb"
+          (reference "L5") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/538eecd5-f236-4a0e-9178-22653d0c1ee5"
+          (reference "L6") (unit 1)
+        )
+        (path "/edb7b7b1-0db2-480f-ac67-116e157678cb/4ccf1aa5-fa57-4c39-902e-517b8aedff9b"
+          (reference "L13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Alperen:PAM8304ASR") (at 143.51 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fcd989db-f51d-4a19-b113-e58eb8164832)
+    (property "Reference" "U9" (at 143.51 83.82 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PAM8304ASR" (at 143.51 86.36 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Alperen:MSOP08" (at 142.24 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "./Documents/PAM8304ASR.pdf" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "Ozdisan" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "IC-8304 AUDIO POWER AMPLIFIER 3W MONO MSOP-8L" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "DIODES" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "MSOP8" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "PAM8304ASR" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "https://b2b.ozdisan.com/entegre-devreler-ics/lineer-entegreler/amplifikatorler/PAM8304ASR/710784" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 52bf3f5e-a416-423b-b8b7-8502c16c5180))
+    (pin "2" (uuid 8d702334-3c7b-42d8-8495-dc1f094019ff))
+    (pin "3" (uuid 15e9b115-b08c-418f-b38a-2e6a196e6ae9))
+    (pin "4" (uuid 838f0520-097f-4857-af75-caa589bfc759))
+    (pin "5" (uuid 0320ded7-c1e6-4d15-b443-0b699a1ae2ab))
+    (pin "6" (uuid bbb683ee-c8d0-4b85-a118-861bf57451ce))
+    (pin "7" (uuid 8f490d3e-2896-46a3-8a10-956ae99e9781))
+    (pin "8" (uuid a6d8f6bd-f300-4cba-bc75-1f605c25b25a))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "U9") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x02_Male") (at 185.42 101.6 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fe39817f-d253-4800-a644-9c89a3665cb9)
+    (property "Reference" "J?" (at 182.88 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Speaker" (at 186.69 104.14 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier" "1" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "1" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package-Case" "1" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Suplier Part Number" "1" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "URL" "1" (at 185.42 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55d4a396-5e29-45aa-8337-269d688381cf))
+    (pin "2" (uuid 4557193b-197b-4ef5-9b17-beb50c2fdd13))
+    (instances
+      (project "RadiolinkAT9C"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/21c45aa4-5c3f-4a31-b992-6ce533e1a1b5"
+          (reference "J?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/ca2ce0f0-d060-4fd3-be2d-d08bfc73f623"
+          (reference "J4") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9c980f90-2478-4f35-a8df-e7e01eb483eb"
+          (reference "J4") (unit 1)
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DW01A")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/projects/RadiolinkAT9C/Sysmbol/DW01A.kicad_sym")(options "")(descr ""))
+  (lib (name "FS8205A")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/projects/RadiolinkAT9C/Sysmbol/FS8205A.kicad_sym")(options "")(descr ""))
+  (lib (name "TP4056")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/projects/RadiolinkAT9C/Sysmbol/TP4056.kicad_sym")(options "")(descr ""))
+)

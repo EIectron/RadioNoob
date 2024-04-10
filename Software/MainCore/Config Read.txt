@@ -1,0 +1,106 @@
+DEVICE_INFO
+Device Details:
+          Name:BFPV Lite 2G4RX
+                Addr: 0xEC
+                Params: 7
+                Param Version: 0
+                Serial: 1162629715
+                FW Id: 197378
+                HW Id: 0
+DEVICE_INFO
+Device Details:
+          Name:BFPV Lite 2G4RX
+                Addr: 0xEC
+                Params: 7
+                Param Version: 0
+                Serial: 1162629715
+                FW Id: 197378
+                HW Id: 0
+
+Len: 0x18       Param: 0        Chunk: 0        Parent: 0       FOLDER
+Param: HooJ     ,
+
+
+Len: 0x3D       Param: 1        Chunk: 3        Parent: 0       TEXT_SELECTION
+Param: Packet Rate, 50Hz(-115dBm);100Hz Full(-112dBm);150Hz(
+
+
+Len: 0x3D       Param: 2        Chunk: 1        Parent: 0       TEXT_SELECTION
+Param: Telem Ratio, Std;Off;1:128;1:64;1:32;1:16;1:8;1:4;1:2
+
+
+Len: 0x24       Param: 3        Chunk: 0        Parent: 0       TEXT_SELECTION
+Param: Switch Mode, Wide;Hybrid
+
+
+Len: 0x27       Param: 4        Chunk: 0        Parent: 0       TEXT_SELECTION
+Param: Model Match, Off;On
+
+
+UART CRC failure
+Len: 0x18       Param: 5        Chunk: 0        Parent: 0       FOLDER
+Param: TX Power (100mW,
+
+
+Len: 0x29       Param: 6        Chunk: 0        Parent: 5       TEXT_SELECTION
+Param: Max Power, 10;25;50;100;250
+
+
+Len: 0x33       Param: 7        Chunk: 0        Parent: 5       TEXT_SELECTION
+Param: Dynamic, Off;Dyn;AUX9;AUX10;AUX11;AUX12
+
+
+Len: 0x3D       Param: 8        Chunk: 1        Parent: 5       TEXT_SELECTION
+Param: Fan Thresh, 10mW;25mW;50mW;100mW;250mW;500mW;1000mW;2
+
+
+Len: 0x19       Param: 9        Chunk: 0        Parent: 0       FOLDER
+Param: VTX Administrato,
+
+
+Len: 0x21       Param: 10       Chunk: 0        Parent: 9       TEXT_SELECTION
+Param: Band, Off;A;B;E;F;R;L
+
+
+Len: 0x24       Param: 11       Chunk: 0        Parent: 9       TEXT_SELECTION
+Param: Channel, 1;2;3;4;5;6;7;8
+
+
+Len: 0x26       Param: 12       Chunk: 0        Parent: 9       TEXT_SELECTION
+Param: Pwr Lvl, -;1;2;3;4;5;6;7;8
+
+
+Len: 0x3D       Param: 13       Chunk: 2        Parent: 9       TEXT_SELECTION
+Param: Pitmode, Off;On;AUX1▒;AUX1▒;AUX2▒;AUX2▒;AUX3▒;AUX3▒;A
+
+
+Len: 0x13       Param: 14       Chunk: 0        Parent: 9       COMMAND
+Param: Send VTx,
+
+
+Len: 0x19       Param: 15       Chunk: 0        Parent: 0       FOLDER
+Param: WiFi Connectivit,
+
+
+Len: 0x16       Param: 16       Chunk: 0        Parent: 15      COMMAND
+Param: Enable WiFi,
+
+
+Len: 0x19       Param: 17       Chunk: 0        Parent: 15      COMMAND
+Param: Enable Rx WiFi,
+
+
+Len: 0x17       Param: 18       Chunk: 0        Parent: 0       COMMAND
+Param: BLE Joystick,
+
+
+Len: 0xF        Param: 19       Chunk: 0        Parent: 0       COMMAND
+Param: Bind,
+
+
+Len: 0x14       Param: 20       Chunk: 0        Parent: 0       INFO
+Param: Bad/Good, 0/
+
+
+Len: 0x1B       Param: 21       Chunk: 0        Parent: 0       INFO
+Param: 3.3.2 ISM2G4, 2d989
