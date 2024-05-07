@@ -1,4 +1,4 @@
-.\objects\retarget.o: RTE/Device/M483KIDAE/retarget.c
+.\objects\retarget.o: RTE\Device\M483KIDAE\retarget.c
 .\objects\retarget.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\retarget.o: ..\M480_BSP\Device\Nuvoton\M480\Include\NuMicro.h
 .\objects\retarget.o: ..\M480_BSP\Device\Nuvoton\M480\Include\M480.h

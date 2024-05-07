@@ -1,4 +1,4 @@
-.\objects\system_m480.o: RTE/Device/M483KIDAE/system_M480.c
+.\objects\system_m480.o: RTE\Device\M483KIDAE\system_M480.c
 .\objects\system_m480.o: ..\M480_BSP\Device\Nuvoton\M480\Include\NuMicro.h
 .\objects\system_m480.o: ..\M480_BSP\Device\Nuvoton\M480\Include\M480.h
 .\objects\system_m480.o: ..\M480_BSP\CMSIS\Include\core_cm4.h
